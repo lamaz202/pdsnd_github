@@ -153,7 +153,7 @@ def trip_duration_stats(df):
 def me (df)
     name = input('your name:')
     print(name)
-    
+     age = input('your age:')
     
     
 def user_stats(df):
