@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITIES = {'chicago': 'chicago.csv',
              'new york': 'new_york_city.csv',
@@ -148,7 +148,14 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
-
+    
+    
+def me (df)
+    name = input('your name:')
+    print(name)
+    
+    
+    
 def user_stats(df):
     """Displays statistics on bikeshare users."""
     print('\nCalculating User Stats...\n')
@@ -176,33 +183,6 @@ def user_stats(df):
     print('-' * 40)
 
 
-
-def main():
-
-    while True:
-        city, month, day = get_filters()
-        df = load_data(city, month, day)
-
-        time_stats(df)
-        station_stats(df)
-        trip_duration_stats(df)
-        user_stats(df)
-
-        x = 0
-        while True:
-            raw = input("do you want to see the raw data ? , pleses enter 'y' if yes and enter 'n' if no .").lower()
-            if raw == 'y':
-                print(df.rund[x: x + 5])
-                x += 5
-            elif raw == 'n':
-                break
-            else:
-                print("there is no data , You entered the wrong entry try again")
-
-
-        restart = input('Would you like to restart? Enter yes or no.').lower()
-        if restart.lower() != 'yes':
-            break
 
 
 if __name__ == "__main__":
