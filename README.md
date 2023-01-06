@@ -13,8 +13,6 @@ theis project for git
 ### Files used
 i used for prject 3 files 
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 
 ### the programmer 
@@ -23,5 +21,9 @@ name: lama
 
 age:21
 
+
+### my jop 
+
+im prohrammer 
 
 
