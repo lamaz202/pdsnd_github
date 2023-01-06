@@ -154,7 +154,7 @@ def me (df)
     name = input('your name:')
       print(name)
  
-    age = input('your age:')
+    
     
     jop = input('your jop:')
     
