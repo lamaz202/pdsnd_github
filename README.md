@@ -5,13 +5,17 @@
 25 march 2022
 
 ### Project Title
+
 lama project 
 
 ### Description
-theis project for git 
+theis project for git  
+
+
 
 ### Files used
-i used for prject 3 files 
+
+I used it for the third project it was about git learning 
 
 
 
@@ -21,9 +25,6 @@ name: lama
 
 age:21
 
-
-### my jop 
-
-im prohrammer 
+ 
 
 
